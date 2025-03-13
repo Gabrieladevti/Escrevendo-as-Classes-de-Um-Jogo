@@ -1,34 +1,17 @@
-# Desafio Escrevendo as classes de um jogo
+# 🎮 Desafio: Escrevendo as Aulas de um Jogo
 
- Neste desafio deve ser explorado os conceitos como variáveis, operadores, loops  estruturas de decisão, funções e classes em especial.
+Este repositório contém um desafio para **desenvolver um jogo** simples, enquanto escrevemos as **aulas** para ensinar como criar esse jogo do zero. O objetivo é fornecer uma sequência de tutoriais com código passo a passo, cobrindo desde a criação do jogo até a implementação de funcionalidades mais avançadas.
 
-## Objetivo
+## 🎯 Objetivo
 
-Crie uma classe generica que represente um herói de uma aventura e que possua as seguintes propriedades:
+Criar um jogo simples, como um **jogo de labirinto**, **jogo de plataforma** ou **jogo de adivinhação**, enquanto ensina os conceitos de programação relacionados a jogos. Cada "aula" será um módulo do desenvolvimento, com explicações e código comentado.
 
-- nome
-- idade
-- tipo (ex: guerreiro, mago, monge, ninja )
+## 🚀 Ferramentas Utilizadas
 
-
-Além disso, deve ter um método chamado atacar que deve atender os seguientes requisitos:
-
-* exibir a mensagem: "o {tipo} atacou usando {ataque}")
-* aonde o {tipo} deve ser concatenando o tipo que está na propriedade da classe
-* e no {ataque} deve seguir uma descrição diferente conforme o tipo, seguindo a tabela abaixo:
-
-  - se mago -> no ataque exibir (usou magia)
-  - se guerreiro -> no ataque exibir (usou espada)
-  - se monge -> no ataque exibir (usou artes marciais)
-  - se ninja -> no ataque exibir (usou shuriken)
-
-## Saída
-
-Ao final deve se exibir uma mensagem:
-
-- "o {tipo} atacou usando {ataque}"
-    - ex: mago atacou usando magia 
-    - guerreiro atacou usando espada
-
-## Execução
-Digite no terminal `node index.js`
+- **Linguagem**: Python (ou JavaScript, dependendo do desafio)
+- **Bibliotecas**:
+  - Para Python: **Pygame** (Para jogos 2D simples)
+  - Para JavaScript: **Phaser.js** (Para desenvolvimento de jogos 2D)
+  - **Git** (Controle de versão)
+- **Editor de Código**: Visual Studio Code, PyCharm, ou qualquer editor de sua preferência
+- **GitHub** (Para versionamento e colaboração)
